@@ -1,0 +1,86 @@
+@import "tailwindcss";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0F0F0F;
+    --drop: #1C1C1C;
+    --search-bg: #303030;
+}
+
+html,
+body {
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: var(--primary-color);
+    color: #f7f7f7;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: inherit;
+}
+
+button::-moz-focus-inner {
+    border: none;
+}
+
+input {
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+
+input::-moz-focus-inner {
+    border: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+input::placeholder {
+    color: #9ca3af;
+    /* same as text-gray-400 */
+    font-size: .75rem;
+}
